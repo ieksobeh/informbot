@@ -13,6 +13,7 @@ You will need:
 maybe other py modules.
 
 Settings are as follows:
+```
 CHANNEL = # your irc channel name
 SERVER = your irc server's address
 PORT = your irc server's port
@@ -23,5 +24,6 @@ DEBUG = False (set it to True for cli verbose output)
 BUFFERLENGTH = 5 (lines to replay from the game)
 ACTIVE_DECAY = 300 (seconds to drop users from being considered active)
 MAJORITY_RATIO = 0.5 (float for a percentage to determine majority from active users)
+```
 
 Games can be acquired from the [if-archive](https://www.ifarchive.org/indexes/if-archive/games/zcode/), put them into a local "games" directory or alter settings to your structure.
