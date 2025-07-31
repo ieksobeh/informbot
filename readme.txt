@@ -2,6 +2,8 @@ An IRC bot your channel can play interactive fiction games with. Vote loading a 
 
 The bot maintains a list of active users and determines voting majority based on the MAJORITY_RATIO variable in settings. So the more people are active, the more votes are needed for loading/playing games. Only dfrotz is supported now but it shouldn't be too difficult to alter it for other cli-based interpreters.
 
+The name of a game is guessed form the third line in dfrotz output. May not be accurate. Use !help for a command list.
+
 You will need:
 - dfrotz
 - python
