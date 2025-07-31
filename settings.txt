@@ -1,0 +1,11 @@
+[DEFAULT]
+CHANNEL = #channelname
+SERVER = irc.server.tld
+PORT = 6667
+BOT_NICK = InformBot
+GAME_DIR = games
+VOTE_INTERVAL = 60
+DEBUG = False
+BUFFERLENGTH = 5
+ACTIVE_DECAY = 300
+MAJORITY_RATIO = 0.5
